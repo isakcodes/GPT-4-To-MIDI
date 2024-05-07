@@ -81,6 +81,8 @@ while 1:
         messages=history
     )
     response = r.choices[0].message.content
+    with open(os.path.join(args.output, f'response.txt'), 'w') as f:
+        f.write(response)
     if args.verbose:
         print('\n'+response+'\n')
     history.append({'role': 'assistant', 'content': response})
