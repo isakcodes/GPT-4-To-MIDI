@@ -73,7 +73,7 @@ if args.load:
 history = [{'role': 'system', 'content': system}, {'role': 'user', 'content': prompt}]
 
 # main loop
-while 1:
+for i in range(100):
     #openai request
     print('[*] Making request to OpenAI API')
     r = client.chat.completions.create(
@@ -81,7 +81,7 @@ while 1:
         messages=history
     )
     response = r.choices[0].message.content
-    with open(os.path.join(args.output, f'response.txt'), 'w') as f:
+    with open(os.path.join(args.output, f'response{i}.txt'), 'w') as f:
         f.write(response)
     if args.verbose:
         print('\n'+response+'\n')
@@ -101,7 +101,7 @@ while 1:
     for i in noteInfo:
         pitch, dur, time = i
         melody.addNote(0, 0, pitch, time, dur, 100)
-    with open(os.path.join(args.output, 'output.mid'), 'wb') as f:
+    with open(os.path.join(args.output, 'output{i}.mid'), 'wb') as f:
         melody.writeFile(f)
     print('[*] Wrote the MIDI file.')
 
