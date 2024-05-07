@@ -24,6 +24,7 @@ parser.add_argument('-v', '--verbose', help='display GPT-4 output', action='stor
 parser.add_argument('-o', '--output', help='specify output directory (default: current)', default=path)
 parser.add_argument('-a', '--auth', help='specify openai api key (edit this script file to set a default)', default=os.getenv("OPENAI_API_KEY"))
 args = parser.parse_args()
+assert os.path.exists(args.output), "[!] The output directory does not exist. Please run $mkdir -p <output directory>"
 
 client = OpenAI(api_key=args.auth)
 
