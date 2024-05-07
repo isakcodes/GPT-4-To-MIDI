@@ -1,0 +1,85 @@
+$ python3 g2m.py --prompt "A suitable melody for the chord progression in this
+midi file please" --load
+../../data/theChordinator-sample-sequences/163418_23_3_2024_generated_Blues.mid
+--output ./out/blues/ --chat --verbose
+[*] Making request to OpenAI API
+
+Sure, here's a melody over your chord progression:
+
+Eb5-1/4-0, F5-1/8-1, Eb5-1/8-1.5, D5-1/2-2, Eb5-1/2-3, C5-1/8-5, Bb4-1/8-5.5, Ab4-1/8-6, G4-1/8-6.5, F4-1/4-7, G4-1/4-8, Ab4-1/4-9, Bb4-1/4-10, C5-1/2-11, Bb4-1/4-13, Ab4-1/4-14, G4-1/2-15, F4-1/2-16, Eb4-1/2-17, C4-1/4-18, Eb4-1/8-18.5, F4-1/4-19, G4-1/2-20, Ab4-1/2-21, Bb4-1/4-22, C5-1/4-23, D5-1/2-24, Eb5-1/4-26, F5-1/8-27, Eb5-1/8-27.5, D5-1/4-28, Ab4-1/4-29, F4-1/2-30, G4-1/2-31.
+
+Please note that the time in beats aligns with the chord changes in your progression. The melody combines step-wise motion, leaps, and rests for a dynamic and interesting line.
+
+[*] Parsing content
+[*] Wrote the MIDI file.
+
+Next prompt> Could you please make it a bit more interesting? While sticking to the timing given by the chord progression.                                
+
+
+[*] Making request to OpenAI API
+
+Certainly! Here is a more expansive melody:
+
+Eb5-1/4-0, F5-1/16-0.75, Eb5-1/16-1, D5-1/8-1.25, Ab4-1/4-2, Bb4-1/8-3, Ab4-1/8-3.5, G4-1/8-4, F4-1/16-4.75, Bb4-1/8-5, Ab4-1/4-5.5, G4-1/8-6, F4-1/8-6.5, G4-1/4-7, C5-1/2-7.75, F5-1/8-8, G4-1/4-8.5, Ab4-1/4-9, G4-1/4-9.5, F4-1/8-10, G4-1/4-10.5, Eb4-1/8-11, D4-1/4-12, Eb4-1/4-12.5, F4-1/8-13, G4-1/4-13.5, Ab4-1/4-14, Bb4-1/4-15, C5-1/2-15.5, Eb5-1/2-16, D5-1/4-17, Eb4-1/8-17.5, F4-1/8-18, G4-1/4-18.5, Ab4-1/8-19, Bb4-1/4-19.5, C5-1/4-20, D5-1/2-22, Eb5-1/4-22.5, F5-1/8-23, G5-1/2-23.5, F5-1/2-24, Eb5-1/4-25, D5-1/4-26, Bb4-1/8-27, Ab4-1/8-27.5, G4-1/4-28, F4-1/8-28.5, G4-1/2-29, Bb4-1/4-30, C5-1/4-31.
+
+This melody features more intricate rhythms and some faster note changes to create a stronger sense of movement and interest.
+
+[*] Parsing content
+[*] Wrote the MIDI file.
+
+Next prompt> The genre for the Chord Progression is Blues. Can you make something that is more typical for the Blues genre? Without being too boring.
+
+
+[*] Making request to OpenAI API
+
+Certainly! Blues melodies often feature repeated motifs, blue notes, and a more laid-back, syncopated rhythm. Let's try this:
+
+Eb5-1/4-0, D5-1/8-1, Eb5-1/8-1.5, D5-1/4-2, C5-1/4-2.5, Bb4-1/8-3, Ab4-3/8-3.5, Bb4-1/8-4, F4-1/4-4.5, Bb4-3/4-5, Ab4-1/4-6, Bb4-1/8-6.5, Eb5-1/8-7, D5-1/4-7.5, Eb5-1/4-8, D5-1/4-8.5, C5-1/8-9, Bb4-1/4-9.5, C5-1/8-10, D5-1/8-10.5, Eb5-1/4-11, D5-1/8-11.5, C5-1/8-12, Bb4-1/8-12.5, C5-1/8-13, Bb4-1/4-13.5, Ab4-1/4-14, Bb4-1/8-14.5, C5-1/8-15, D5-1/4-15.5, Eb5-1/4-16, D5-1/8-16.5, C5-1/8-17, Bb4-1/8-17.5, Ab4-1/8-18, Bb4-1/8-18.5, F4-1/2-19, Eb4-1/2-20, D5-1/4-21, Eb5-1/4-22, F5-1/4-23, G5-1/4-24, F5-1/8-24.5, Eb5-1/8-25, D5-1/4-25.5, C5-1/2-26, Ab4-1/2-27, Bb4-1/4-28, Ab4-1/8-28.5, G4-1/8-29, F4-1/2-30, Bb4-1/4-31, C5-1/4-32.
+
+This should evoke more of a blues feeling while still maintaining interest and complexity.
+
+[*] Parsing content
+[*] Wrote the MIDI file.
+
+Next prompt> Now, please do your best to produce a melody which a musician, when hearing together with the chord progression, would believe was made by a human.^[[D                                
+
+
+[*] Making request to OpenAI API
+
+Sure, here's a bluesy melodic line keeping it catchy and memorable:
+
+Eb5-1/2-0, Ab4-1/2-1, Bb4-1/4-2, Ab4-1/4-2.5, G4-1/4-3, F4-1/4-3.5, Ab4-1/4-4, Bb4-1/4-4.5, C5-1/2-5, Bb4-1/4-7, Ab4-3/8-7.5, G4-1/2-8, F4-1/4-9, Eb4-1/2-9.5, F4-3/8-11, G4-3/8-12, Ab4-1/4-14, Bb4-1/8-14.5, C5-1/4-15, D5-1/4-15.5, Eb5-1/8-16, C5-1/8-16.5, Bb4-1/2-17, Ab4-1/4-18.5, G4-1/4-19.5, F4-1/2-20, G4-1/4-21, Ab4-1/4-22, Bb4-1/2-23, C5-1/2-24, D5-1/2-25, Eb5-1/4-26, C5-1/8-26.5, Bb4-1/8-27, Ab4-1/4-27.5, G4-3/8-28, F4-1/2-29, Eb4-3/8-30, F4-1/8-31, G4-1/8-31.5, Ab4-1/4-32.
+
+This should evoke a bluesy and melodic feeling that should match perfectly with the chord progression provided.
+
+[*] Parsing content
+[*] Wrote the MIDI file.
+
+Next prompt> ^CTraceback (most recent call last):
+  File "/Users/isak/kth/7an/degree-project/40-programming/code/GPT-4-To-MIDI/g2m.py", line 107, in <module>
+    prompt = input('\nNext prompt> ')
+KeyboardInterrupt
+
+# Now we have 4 results (the initial and 3 follow-up ones from the chat)
+# and will piece chords together with melody on separate instruments
+# using the script combine_midi.py
+
+# First result after prompt
+$ python3 combine_midi.py out/blues/output0.mid ../../data/theChordinator-sample-sequences/163418_23_3_2024_generated_Blues.mid
+Combined MIDI files saved as combined.mid
+$ mv combined.mid out/blues/combined0.mid
+
+# Second result after follow-up question
+$ python3 combine_midi.py out/blues/output1.mid ../../data/theChordinator-sample-sequences/163418_23_3_2024_generated_Blues.mid
+Combined MIDI files saved as combined.mid
+$ mv combined.mid out/blues/combined1.mid
+
+# Third result after follow-up question
+$ python3 combine_midi.py out/blues/output2.mid ../../data/theChordinator-sample-sequences/163418_23_3_2024_generated_Blues.mid
+Combined MIDI files saved as combined.mid
+$ mv combined.mid out/blues/combined2.mid
+
+# Third result after follow-up question
+$ python3 combine_midi.py out/blues/output3.mid ../../data/theChordinator-sample-sequences/163418_23_3_2024_generated_Blues.mid
+Combined MIDI files saved as combined.mid
+$ mv combined.mid out/blues/combined3.mid
