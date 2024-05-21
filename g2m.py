@@ -101,7 +101,7 @@ for i in range(100):
     for i in noteInfo:
         pitch, dur, time = i
         melody.addNote(0, 0, pitch, time, dur, 100)
-    with open(os.path.join(args.output, 'output{i}.mid'), 'wb') as f:
+    with open(os.path.join(args.output, f'output{i}.mid'), 'wb') as f:
         melody.writeFile(f)
     print('[*] Wrote the MIDI file.')
 
